@@ -1,22 +1,5 @@
 /* SIMPLE CSS */
 
-#footer-widgets .footer-widget {
-    margin: 0 4% 4% 0 !important;
-}
-
-#main-footer .footer-widget h4 {
-    color: #8ac63f;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: .25rem;
-}
-
-#footer-widgets .footer-widget li {
-    position: relative;
-    padding-left: 1rem;
-    margin-left: 2rem;
-}
-
 /* ELEMENTS */
 
 html, body {
@@ -582,23 +565,12 @@ a.more-link:hover {
 
 /* FOOTER */
 
-/* fix overflow to next line, 4th column */
-@media (min-width: 981px) {
-    .et_pb_gutters3 .footer-widget {
-        margin: 0 4% 4% 0 !important;
-    }
-}
-    
-.et_pb_gutters3 .footer-widget {
-    margin: 0 4% 4% 0 !important;
-}
-
 #main-footer {
     background-color: #1a1a1a;
 }
 
 #menu-footer-menu a {
-    font-weight: 300 !important;
+    font-weight: 300;
     letter-spacing: .04em;
 }
 
@@ -606,8 +578,19 @@ a.more-link:hover {
     color: #6A9931 !important;
 }
 
-.footer-widget .title {
-    color: #8AC63F !important;
+#menu-footer-menu a:link,
+#menu-footer-menu a:visited {
+    color: #8ac63f;
+    text-transform: uppercase;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* fix overflow to next line, 4th column */
+@media (min-width: 981px) {
+    .et_pb_gutters3 .footer-widget {
+        margin: 0 4% 4% 0;
+    }
 }
 
 #footer-info, #footer-info a {
@@ -630,20 +613,33 @@ a.more-link:hover {
     color: #eee !important;
 }
 
+.footer-widget .title {
+    color: #8AC63F !important;
+}
+
+#footer-widgets .footer-widget {
+    margin: 0 4% 4% 0;
+}
+
+#main-footer .footer-widget h4 {
+    color: #8ac63f;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: .25rem;
+}
+
+#footer-widgets .footer-widget li {
+    position: relative;
+    padding-left: 1rem;
+    margin-left: 2rem;
+}
+
 #footer-widgets .footer-widget li a {
     font-family: "aktiv-grotesk", sans-serif;
     font-weight: 400;
     text-decoration: none;
     letter-spacing: 1px;
     -webkit-font-smoothing: subpixel-antialiased;
-}
-
-#menu-footer-menu a:link,
-#menu-footer-menu a:visited {
-    color: #8ac63f !important;
-    text-transform: uppercase;
-    font-weight: 400 !important;
-    -webkit-font-smoothing: antialiased;
 }
 
 #footer-bottom {
