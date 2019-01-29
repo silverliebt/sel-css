@@ -614,7 +614,8 @@ a.more-link:hover {
 }
 
 .footer-widget .title {
-    color: #8AC63F !important;
+    color: steelblue;
+    font-size: 17px;
 }
 
 #footer-widgets .footer-widget {
@@ -645,6 +646,7 @@ a.more-link:hover {
 #footer-bottom {
     background: linear-gradient(black,firebrick);
 }
+
 
 /* MODULES */
 
@@ -972,11 +974,6 @@ ul.class-list li {
     border: 2px #484848 solid;
     color: #FFF !important;
     text-shadow: none !important;
-}
-
-.footer-widget .title {
-    color: steelblue !important;
-    font-size: 17px;
 }
 
 .wp-caption p.wp-caption-text {
