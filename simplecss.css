@@ -22,8 +22,6 @@
 html, body {
     font-family: "aktiv-grotesk", sans-serif;
     font-size: 17px !important;
-    /* -webkit-font-smoothing: antialiased; */
-    ;
 }
 
 body,ul,ol,p,blockquote {
