@@ -21,7 +21,7 @@
 
 html, body {
     font-family: "aktiv-grotesk", sans-serif;
-    font-size: 17px !important;
+    font-size: 17px;
 }
 
 body,ul,ol,p,blockquote {
@@ -35,7 +35,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "aktiv-grotesk", sans-serif !important;
+    font-family: "aktiv-grotesk", sans-serif;
     font-weight: 400;
 }
 
