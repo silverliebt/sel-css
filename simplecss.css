@@ -650,16 +650,26 @@ a.more-link:hover {
 
 /* MODULES */
 
+/* slider */
 .et_pb_slide_description h2.et_pb_slide_title {
     font-weight: 300 !important;
     font-size: 40px !important;
     text-shadow: 3px 3px 12px #000;
 }
 
+/* fullwidth header */
 .et_pb_fullwidth_header {
     padding: 2rem 0 !important;
 }
 
+.et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content {
+    width: 80%;
+    max-width: 1024px;
+    margin: 0 auto !important;
+    padding: 0;
+}
+
+/* blurb */
 .et_pb_blurb h4:first-of-type {
     padding-bottom: 1rem;
     font-size: 1.2em;
@@ -668,6 +678,7 @@ a.more-link:hover {
     color: #858585;
 }
 
+/* accordion toggle */
 .et_pb_accordion_0 .et_pb_toggle {
     box-shadow: none !important;
 }
@@ -696,7 +707,11 @@ h5.et_pb_toggle_title {
     border: none;
 }
 
-/* people page img arrangement */
+
+/* MISC */
+
+/* IMAGES */
+/* people page media query */
 @media screen and (max-width:500px) {
     img.img-rounded-12.img-border-dark.alignright.mobile100 {
         width: 100%;
@@ -705,21 +720,10 @@ h5.et_pb_toggle_title {
     }
 }
 
-/* MISC */
-
 /* FONTAWESOME */
 i.fa.fa-long-arrow-right {
     color: slategray;
 }
-
-/* revised fullwidth headers */
-.et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content {
-    width: 80%;
-    max-width: 1024px;
-    margin: 0 auto !important;
-    padding: 0;
-}
-
 
 /* TODO overqualified -- mobile dropdown remove indentation for sub-section items */
 #main-header .et_mobile_menu li ul,
@@ -734,8 +738,9 @@ i.fa.fa-long-arrow-right {
     padding-left: 0 !important;
 }
 
-/* main header - some opacity .95 on scroll retained */
-#main-header, #main-header .nav li ul, .et-search-form {
+#main-header, 
+#main-header .nav li ul, 
+.et-search-form {
     background-color: rgba(255, 255, 255, 1);
 }
 
