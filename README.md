@@ -1,2 +1,3 @@
 # sel-css
-CSS that extends theme and child theme wordpress css for Extended Learning site
+CSS that extends theme and child theme wordpress css for Extended Learning site.
+This is an attempt to impose order and best practices on a bunch of un-ruly CSS, in order to learn and speed up the site.
