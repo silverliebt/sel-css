@@ -64,6 +64,7 @@ strong {
     padding: 0 0 1.5rem 2rem;
     list-style-type: circle;
     list-style-position: outside;
+    line-height: 1.4;
 }
 
 .entry-content ul li {
@@ -289,6 +290,7 @@ a.btn.btn-primary.btn-lg:hover {
 
 /* HOME */
 
+/* blurb - 1st col links */
 p.sel--news-item {
     margin-top: 20px !important;
     padding: 10px !important;
@@ -919,10 +921,7 @@ i.fa.fa-long-arrow-right {
     font-size: 20px;
 }
 
-.entry-content ul {
-    line-height: 1.4em;
-    padding: 0 1em 1em 1.5em;
-}
+
 
 .entry-content .divi-subnav ul li {
     list-style-type: none !important;
