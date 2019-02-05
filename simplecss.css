@@ -32,11 +32,6 @@ h6 {
     font-weight: 400;
 }
 
-h1.et_pb_module_header,
-.et_pb_fullwidth_header_subhead {
-    font-weight: 300 !important;
-}
-
 h3 {
     font-size: 1.3em;
     margin: .5rem 0 .25rem 0;
@@ -141,15 +136,51 @@ strong {
 
 /* SECONDARY NAV */
 
-.et_color_scheme_red #top-header {
-    background: #59595B !important;
+#top-header {
+    background-color: #686968;
+    color: #fff;
+}
+
+#et-secondary-nav li li a,
+#top-header,
+#top-header .et-social-icon a::before,
+#top-header a {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#et-secondary-menu ul li {
+    line-height: 1;
+}
+
+#et-secondary-menu>ul>li a {
+    display: inline-block;
+    padding-bottom: 0.75em;
+    color: #fff;
+    font-weight: 300;
+}
+
+#et-secondary-nav a:link,
+#et-secondary-nav a:visited {
+    color: white;
+    font-weight: 300 !important;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-shadow: 1px 1px 1px #444;
+    letter-spacing: .04em !important;
+}
+
+#et-secondary-nav a:hover {
+    opacity: 1 !important;
+    color: white !important;
+    letter-spacing: 0;
+    text-decoration: underline;
 }
 
 #et-secondary-menu>ul>li a {
     display: inline-block;
     padding-bottom: 0.75em;
     color: #FFF;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: .03em !important;
     text-transform: uppercase;
     font-size: 14.5px !important;
@@ -487,11 +518,7 @@ button.g-recaptcha.gn-btn {
 
 
 /* TODO */
-@media screen and (min-width: 981px) {
-    .et-fixed-header#top-header a {
-        color: #fff !important;
-    }
-}
+
 
 #home-blurb-classes h4>a {
     font-family: 'akti©v-grotesk' !important;
@@ -690,6 +717,11 @@ a.more-link:hover {
 /* fullwidth header */
 .et_pb_fullwidth_header {
     padding: 2rem 0 !important;
+}
+
+h1.et_pb_module_header,
+.et_pb_fullwidth_header_subhead {
+    font-weight: 300 !important;
 }
 
 .et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content {
@@ -929,48 +961,6 @@ i.fa.fa-long-arrow-right {
     margin-left: .5em;
 }
 
-
-/* TODO review port to child theme styles */
-
-#top-header {
-    background-color: #686968;
-}
-
-#et-secondary-nav li li a,
-#top-header,
-#top-header .et-social-icon a::before,
-#top-header a {
-    font-size: 15px;
-    letter-spacing: 1px;
-}
-
-#et-secondary-menu ul li {
-    line-height: 1;
-}
-
-#et-secondary-menu>ul>li a {
-    display: inline-block;
-    padding-bottom: 0.75em;
-    color: #FFF;
-    font-weight: 300;
-}
-
-#et-secondary-nav a:link,
-#et-secondary-nav a:visited {
-    color: white;
-    font-weight: 300 !important;
-    -webkit-font-smoothing: subpixel-antialiased;
-    text-shadow: 1px 1px 1px #444;
-    letter-spacing: .04em !important;
-}
-
-#et-secondary-nav a:hover {
-    opacity: 1 !important;
-    color: white !important;
-    letter-spacing: 0;
-    text-decoration: underline;
-}
-
 .et_pb_contact p input,
 .et_pb_contact p textarea {
     border: 1px #999 solid !important;
@@ -1008,6 +998,7 @@ i.fa.fa-long-arrow-right {
     text-decoration: none;
 }
 
+/* fullwidth header */
 .et_pb_fullwidth_header {
     padding: 30px 0;
 }
