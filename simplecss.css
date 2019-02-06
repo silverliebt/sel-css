@@ -128,15 +128,17 @@ strong {
     color: midnightblue;
 }
 
+/* active page nav color */
 #top-menu li.current-menu-item>a {
     color: slategray;
+
 }
 
 
 /* SECONDARY NAV */
 
 .et_color_scheme_red #top-header {
-    background: #a6192e!important;
+    background: #59595B !important;
 }
 
 #et-secondary-nav li li a,
