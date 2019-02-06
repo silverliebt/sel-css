@@ -73,6 +73,13 @@ strong {
     line-height: 1.5rem;
 }
 
+/* keep white links on scroll */
+@media only screen and (min-width: 981px) {
+  .et-fixed-header#top-header a {
+      color: white;
+  }
+}
+
 /* LOGO SEARCH & NAV */
 
 #logo {
@@ -131,7 +138,6 @@ strong {
 /* active page nav color */
 #top-menu li.current-menu-item>a {
     color: slategray;
-
 }
 
 
@@ -235,7 +241,7 @@ ul.class-list li {
     margin: 0.75em 0;
     padding: 12px;
     padding-left: 12px;
-    list-style-type: none;
+    list-style-type: none !important;
     line-height: 1.4;
 }
 
@@ -288,8 +294,7 @@ a.et_pb_button.et_pb_more_button:focus {
     color: white !important;
 }
 
-/* home buttons -- blurbs (overqualified) --TODO */
-
+/* TODO home buttons -- blurbs (overqualified) --TODO */
 a.btn.btn-primary.btn-lg {
     display: inline-block;
     margin-bottom: 1em;
@@ -306,18 +311,12 @@ a.btn.btn-primary.btn-lg {
     margin-top: 1.5em !important;
 }
 
+/* TODO */
 a.btn.btn-primary.btn-lg:hover {
     box-shadow: 3px 3px 5px #AAA;
     border: 1px #000 solid;
     background-color: #009196 !important;
     text-decoration: none;
-}
-
-/* main class pages titles */
-.sel--section-head h2 {
-    font-size: 1.6rem;
-    border-radius: .25em;
-    letter-spacing: .04em;
 }
 
 /* HOME */
@@ -330,6 +329,13 @@ p.sel--news-item {
     background: #eee !important;
     border-radius: 4px !important;
     font-size: 1.075em !important;
+}
+
+/* main class pages titles */
+.sel--section-head h2 {
+    font-size: 1.6rem;
+    border-radius: .25em;
+    letter-spacing: .04em;
 }
 
 p.sel--news-item:hover {
@@ -455,7 +461,6 @@ label {
     padding: 1rem !important;
 }
 
-
 .input-half .genooShortcode #lcform .ext-form-input {
     width: 66%;
 }
@@ -512,16 +517,73 @@ span.gn-error-msg {
     font-family: 'aktiv-grotesk' !important;
 }
 
-
 button.g-recaptcha.gn-btn {
     margin-top: 1.5em !important;
+}
+
+.btn-lg {
+    font-size: 1.1rem !important;
+    letter-spacing: 1px;
+}
+
+.btn-default {
+    border-color: #CCC;
+    background-color: steelblue;
+    color: #333;
+    color: #FFF !important;
+    letter-spacing: 0.04em;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.btn-default:hover {
+    background: steelblue !important;
+    color: #fff !important;
+}
+
+a.et_pb_button {
+    letter-spacing: 0.05em;
+}
+
+.et_pb_button {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-bottom: 1em;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-image: none;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.45;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.button-container button {
+    margin-right: 0.5em;
+}
+
+.button-container button:last-of-type {
+    margin-right: 0;
 }
 
 
 /* TODO */
 
 
-#home-blurb-classes h4>a {
+#home-blurb-classes h4 > a {
     font-family: 'akti©v-grotesk' !important;
     font-size: 1.175rem;
     font-weight: 400;
@@ -902,44 +964,6 @@ i.fa.fa-long-arrow-right {
     margin-top: 2em;
 }
 
-/* xfer */
-
-.et_pb_button {
-    background: rgba(0, 0, 0, 0.3);
-}
-
-.btn {
-    display: inline-block;
-    vertical-align: middle;
-    cursor: pointer;
-    margin-bottom: 1em;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    background-image: none;
-    padding: 10px 16px;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 1.45;
-    text-align: center;
-    white-space: nowrap;
-}
-
-.button-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 2rem;
-}
-
-.button-container button {
-    margin-right: 0.5em;
-}
-
-.button-container button:last-of-type {
-    margin-right: 0;
-}
-
-
 /* CUSTOMIZER */
 
 .divi-subnav ul {
@@ -953,8 +977,6 @@ i.fa.fa-long-arrow-right {
 .et_pb_column_1_4 h4 {
     font-size: 20px;
 }
-
-
 
 .entry-content .divi-subnav ul li {
     list-style-type: none !important;
@@ -1021,28 +1043,7 @@ i.fa.fa-long-arrow-right {
     letter-spacing: 0.04em !important;
 }
 
-.btn-lg {
-    font-size: 1.1rem !important;
-    letter-spacing: 1px;
-}
 
-.btn-default {
-    border-color: #CCC;
-    background-color: steelblue;
-    color: #333;
-    color: #FFF !important;
-    letter-spacing: 0.04em;
-    text-shadow: 1px 1px 1px #000;
-}
-
-.btn-default:hover {
-    background: steelblue !important;
-    color: #FFF !important;
-}
-
-a.et_pb_button {
-    letter-spacing: 0.05em;
-}
 
 @media screen and (max-width : 768px) {
     .et_pb_social_media_follow li {
