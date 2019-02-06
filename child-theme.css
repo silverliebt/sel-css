@@ -281,7 +281,6 @@ h2 a:hover {
 }
 
 #et-secondary-menu > ul > li a {
-  font-weight: 300;
   display: inline-block;
   padding-bottom: .75em;
   color: #fff;
@@ -289,9 +288,9 @@ h2 a:hover {
 
 #et-secondary-nav a:link,
 #et-secondary-nav a:visited {
-  font-weight: 300 !important;
+  font-weight: 400;
   letter-spacing: 0;
-  color: white;
+  color: #fff;
 }
 
 #et-secondary-nav a:hover {
