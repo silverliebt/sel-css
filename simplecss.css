@@ -76,7 +76,7 @@ strong {
 /* keep white links on scroll */
 @media only screen and (min-width: 981px) {
   .et-fixed-header#top-header a {
-      color: white;
+      color: #fff !important;
   }
 }
 
@@ -221,7 +221,7 @@ strong {
     color: #5a4e86 !important;
 }
 
-/* slider links thin style */
+/* slider links */
 .et_pb_slide_description a:link,
 .et_pb_slide_description a:visited,
 .et_pb_slide_description a:hover {
@@ -287,6 +287,7 @@ button.et_pb_contact_submit.et_pb_button:hover {
     background-color: #00abb1 !important;
     box-shadow: 3px 3px 3px #aaa;
     border: 1px #333 solid;
+    color: #fff !important;
 }
 
 /* fix focus color on slider buttons */
@@ -718,10 +719,16 @@ a.more-link:hover {
     text-align: center;
     float: none !important;
     text-align: center !important;
-    color: #999;
+    color: lightslategray;
     -webkit-font-smoothing: subpixel-antialiased;
     line-height: 4 !important;
     padding: 30px 0;
+}
+
+#footer-info p {
+    font-weight: 400;
+    color: lightslategrey;
+    letter-spacing: .04rem;
 }
 
 #footer-info a {
@@ -743,8 +750,8 @@ a.more-link:hover {
 }
 
 #main-footer .footer-widget h4 {
-    color: #8ac63f;
-    text-align: center;
+    color: steelblue;
+    text-align: left;
     text-transform: uppercase;
     margin-bottom: .25rem;
 }
@@ -766,7 +773,6 @@ a.more-link:hover {
 #footer-bottom {
     background: linear-gradient(black, firebrick);
 }
-
 
 /* MODULES */
 
