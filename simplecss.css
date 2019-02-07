@@ -320,7 +320,9 @@ a.btn.btn-primary.btn-lg:hover {
     text-decoration: none;
 }
 
-/* HOME */
+/* NAME SPACED */
+
+/* home */
 
 /* blurb - 1st col links */
 p.sel--news-item {
@@ -347,6 +349,23 @@ p.sel--news-item:last-of-type {
     padding-bottom: 10px !important;
 }
 
+/* contact */
+.sel--address_lg {
+    font-size: 18px;
+    display: inline-block;
+    line-height: 1.4em;
+    padding-bottom: .5em;
+}
+
+.sel--border-radius_medium img {
+    border-radius: .5em;
+}
+
+/* images */
+.sel--border-radius_medium img {
+    border-radius: .5em;
+}
+
 /* FORMS INC GENOO */
 
 input[type=text],
@@ -367,16 +386,16 @@ input::placeholder {
     color: slategray !important;
 }
 
-.et_pb_contact p input,
-.et_pb_contact p textarea {
-    font-size: 16px !important;
+.et_pb_contact input,
+.et_pb_contact textarea {
+    font-size: 16px;
     box-sizing: border-box;
-    width: 100% !important;
-    padding: 16px !important;
-    color: #4e4e4e !important;
-    border: medium none !important;
-    border: 1px #999 solid !important;
-    border-radius: .25em !important;
+    width: 100%;
+    padding: 16px;
+    color: #4e4e4e;
+    border: medium none;
+    border: 1px #999 solid;
+    border-radius: .25em;
     background-color: #f9f9f9;
 }
 
@@ -670,10 +689,7 @@ a.more-link:hover {
     margin: 10px 0;
 }
 
-/* IMAGES */
-.sel--border-radius_medium img {
-    border-radius: .5em;
-}
+
 
 @media screen and (max-width: 479px) {
     .et_pb_slide_description h2.et_pb_slide_title {
