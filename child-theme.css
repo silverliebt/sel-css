@@ -299,7 +299,9 @@ blockquote {
 }
 
 blockquote {
-    font-family: "" aktiv-grotesk-condensed "";
+  margin: 20px 0 30px;
+  padding-left: 20px;
+  border-left: 5px solid;
     font-size: 1.12em;
     font-weight: 300;
     padding: 20px;
@@ -323,10 +325,14 @@ blockquote {
 }
 
 blockquote p {
-    font-family: "" aktiv-grotesk "", sans-serif;
+    font-family: "aktiv-grotesk", sans-serif;
     font-size: 1rem;
     margin-bottom: 1em;
     padding-bottom: 0;
+}
+
+blockquote a {
+    font-weight: 500;
 }
 
 strong {
@@ -708,7 +714,7 @@ li.et_pb_social_icon.et_pb_social_network_link {
 
 /* ensure proper font for footer links, text */
 #footer-widgets .footer-widget li a {
-    font-family: "" aktiv-grotesk "", "open-sans", sans-serif;
+    font-family: "aktiv-grotesk, "open-sans", sans-serif;
     font-weight: 300;
     text-decoration: none;
 }
@@ -761,7 +767,7 @@ li.et_pb_social_icon.et_pb_social_network_link {
 }
 
 .divi-subnav {
-    font-family: "" aktiv-grotesk "", sans-serif;
+    font-family: "aktiv-grotesk", sans-serif;
     font-weight: 300;
 }
 
@@ -895,7 +901,7 @@ input:focus, select:focus, textarea:focus {
 }
 
 body, input, textarea, select {
-    font-family: "" aktiv-grotesk ", sans-serif;";
+    font-family: "aktiv-grotesk", sans-serif;
 }
 
 input[type="text"]:focus, input.text:focus, input.title:focus, textarea:focus, select:focus {
@@ -947,7 +953,7 @@ header {
 }
 
 #top-menu a {
-    font-family: "" aktiv-grotesk "", "expo-sans-pro", "open sans", sans-serif;
+    font-family: "aktiv-grotesk", "expo-sans-pro", "open sans", sans-serif;
     font-size: 1.18em;
     font-weight: 600;
     text-transform: uppercase;
@@ -1539,10 +1545,6 @@ img.wp-post-image {
 
 p.focus a {
     font-size: 1.12em;
-}
-
-blockquote a {
-    font-weight: 500;
 }
 
 /* Set the slider height */
@@ -2149,8 +2151,6 @@ ul.et_pb_social_media_follow {
 }
 
 .et_pb_testimonial_description h4 {
-    font-family: "" aktiv-grotesk-condensed "";
-    font-weight: 300;
     font-weight: 300;
     line-height: 1.4em;
     color: #555;
