@@ -73,12 +73,6 @@ strong {
     line-height: 1.5rem;
 }
 
-/* keep white links on scroll */
-@media only screen and (min-width: 981px) {
-  .et-fixed-header#top-header a {
-      color: #fff !important;
-  }
-}
 
 /* LOGO SEARCH & NAV */
 
@@ -154,6 +148,13 @@ strong {
     font-size: 15px;
     letter-spacing: 1px;
     font-weight: 400;
+}
+
+/* keep white links on scroll */
+@media only screen and (min-width: 981px) {
+  .et-fixed-header#top-header a {
+      color: #fff;
+  }
 }
 
 #et-secondary-menu ul li {
